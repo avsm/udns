@@ -16,7 +16,7 @@ let net =
 let remote_k =
   let doc = Key.Arg.info ~doc:"Remote repository to fetch content."
       ["r"; "remote"] in
-  Key.(create "remote" Arg.(opt string "https//github.com/roburio/udns.git" doc))
+  Key.(create "remote" Arg.(opt string "https://github.com/roburio/udns.git" doc))
 
 let dns_handler =
   let packages = [
